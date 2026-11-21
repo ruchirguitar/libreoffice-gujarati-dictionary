@@ -1,4 +1,6 @@
-Gujarati Dictionary for OpenOffice.org
+Gujarati Dictionary for LibreOffice.org
+Updated By:
+Ruchir Purohit ruchirguitar@gmail.com
 
 Maintained By:
 Kartik Mistry <kartik dot mistry at gmail dot com>
