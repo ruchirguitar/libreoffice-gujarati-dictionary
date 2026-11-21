@@ -45,6 +45,24 @@ SFX N 0 એ [ાિીુૂૃે]
 SFX N 0 ો/C [કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહ]
 SFX N 0 ઓ/C [ાિીુૂૃે]
 
+# C = case markers on plural stems ending in ો/ઓ/ાઓ/ાંઓ (+ case on plural: ઘરોને, પુસ્તકોમાં, બાળકોથી)
+SFX C Y 15
+SFX C 0 નો .
+SFX C 0 ની .
+SFX C 0 નું .
+SFX C 0 ના .
+SFX C 0 નાં .
+SFX C 0 ને .
+SFX C 0 થી .
+SFX C 0 માં .
+SFX C 0 માંથી .
+SFX C 0 માંનો .
+SFX C 0 માંની .
+SFX C 0 માંનું .
+SFX C 0 માંના .
+SFX C 0 નેય .
+SFX C 0 માંય .
+
 # K = any other noun-like word (names, loanwords): case markers and -એ/-ે only, no plural
 SFX K Y 17
 SFX K 0 નો [કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહાિીુૂૃો]
