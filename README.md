@@ -1,10 +1,11 @@
 # Repaired Gujarati (`gu_IN`) Dictionary & Official LibreOffice Extension
 
 [![LibreOffice Extension](https://img.shields.io/badge/LibreOffice-Official_Extension-blue?logo=libreoffice)](https://extensions.libreoffice.org/en/extensions/show/27711)
+[![macOS Spellcheck](https://img.shields.io/badge/macOS-Native_Spelling-black?logo=apple)](macos/README.md)
 [![Upstream Aspell](https://img.shields.io/badge/Upstream-kartikm%2Fgu--wordlist-green)](https://github.com/kartikm/gu-wordlist)
 [![License: GPL-2.0-or-later](https://img.shields.io/badge/License-GPL_2.0+-blue.svg)](LICENSE)
 
-**Official, fixed Gujarati (gu_IN) Hunspell dictionary and extension for LibreOffice, Apache OpenOffice, Mozilla Firefox/Thunderbird, Linux distributions (`hunspell-gu`), and open-source applications.**
+**Official, fixed Gujarati (gu_IN) Hunspell dictionary and extension for LibreOffice, Apache OpenOffice, Mozilla Firefox/Thunderbird, Apple macOS native spellchecker, Linux distributions (`hunspell-gu`), and open-source applications.**
 
 ---
 
@@ -13,6 +14,30 @@
 The repaired dictionary has been officially released on the **LibreOffice Extensions Website**:
 
 👉 **[Download from LibreOffice Extensions (Version 2026.11.19)](https://extensions.libreoffice.org/en/extensions/show/27711)**
+
+---
+
+## 🍎 macOS One-Click Installation (Native System Spellcheck)
+
+Enable system-wide Gujarati spellchecking across **Safari, Apple Pages, Numbers, Keynote, Apple Mail, Notes, TextEdit, and all native macOS apps** without requiring administrator/root privileges:
+
+### Instant One-Click Terminal Install
+Open **Terminal** (`Cmd + Space` → type `Terminal`) and paste:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/ruchirguitar/libreoffice-gujarati-dictionary/master/macos/install.sh | bash
+```
+
+### Manual / Package Download
+1. Download **[`gujarati-macos-spelling.zip`](https://github.com/ruchirguitar/libreoffice-gujarati-dictionary/releases/latest/download/gujarati-macos-spelling.zip)** from GitHub Releases.
+2. Unzip the package, open Terminal in that directory, and run `bash install.sh`.
+
+### Activating in macOS Settings (Ventura, Sonoma, Sequoia)
+1. Restart open applications (Safari, Pages, Mail).
+2. Open **System Settings** → **Keyboard** → **Text Input** (or **Input Sources**) → click **Edit...**.
+3. Under **Spelling**, choose **Set Up...**, check **ગુજરાતી (Library)**, and click **Done**.
+
+> **To Uninstall**: Run `curl -sSL https://raw.githubusercontent.com/ruchirguitar/libreoffice-gujarati-dictionary/master/macos/uninstall.sh | bash`
 
 ---
 
